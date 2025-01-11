@@ -1,0 +1,110 @@
+(ExpressProject "Current-Balanced-Circuit"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 P001 (4234998)  [9/4/2024]-[01/11/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\current-balanced-circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "TRUE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Allegro Netlist Output Board File"
+       ".\allegro\current-balanced-circuit.brd"))
+  (Folder "Layout"
+    (File ".\allegro\current-balanced-circuit.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\current-balanced-circuit.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File "..\transistors_eval_board\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\netlist.log"))
+    (File "..\transistors_eval_board\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\netrev.lst"))
+    (File "..\transistors_eval_board\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "d:\github_dev\transistors_eval_board\allegro\eco.txt"))
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\Current-Balanced-Circuit\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\Current-Balanced-Circuit\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile "D:\Github_dev\Current-Balanced-Circuit\allegro\eco.txt")))
+  (PartMRUSelector
+    (X_KF301-2P
+      (FullPartName "X_KF301-2P.Normal")
+      (LibraryName "D:\GITHUB_DEV\CADENCE_LIBRARY\SYMBOLS\GOST_MAIN.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Github_dev\Current-Balanced-Circuit\current-balanced-circuit.dsn")
+      (Path "Design Resources"
+         "D:\Github_dev\Current-Balanced-Circuit\current-balanced-circuit.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "D:\Github_dev\Current-Balanced-Circuit\current-balanced-circuit.dsn"
+         "SCHEMATIC1" "P01_MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 426 0 798"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1413 24 839")
+        (Scroll "-169 -6")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "D:\GITHUB_DEV\CURRENT-BALANCED-CIRCUIT\CURRENT-BALANCED-CIRCUIT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "P01_MAIN"))))
